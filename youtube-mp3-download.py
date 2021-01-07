@@ -5,7 +5,7 @@ import os
 class Download(object):
     def __init__(self, url):
         self.url = url
-        self.save_path = os.path.join(os.path.expanduser('/'),'Downloads')
+        self.save_path = os.path.join(os.path.expanduser('~'),'Downloads')
         self.song()
     
     def song(self):
